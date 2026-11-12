@@ -9412,6 +9412,1569 @@
         "pt": "+3,5%",
         "en": "+3.5%"
       }
-    }
+    },
+    "graficos_extras": [
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Fora do laboratório, o MMM erra tanto quanto as alternativas simples, ou mais",
+          "en": "Outside lab conditions, the MMM is as wrong as the simple alternatives, or worse",
+          "es": "Fuera del laboratorio, el MMM se equivoca tanto como las alternativas simples, o más"
+        },
+        "eixo_x": {
+          "pt": "Cenário",
+          "en": "Scenario",
+          "es": "Escenario"
+        },
+        "eixo_y": {
+          "pt": "Venda atribuída ao canal errado, em % da venda de mídia",
+          "en": "Sales credited to the wrong channel, % of media sales",
+          "es": "Venta atribuida al canal equivocado, en % de la venta de medios"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "rotulos": {
+          "pt": [
+            "Laboratório",
+            "4 anos",
+            "Colinearidade baixa",
+            "Central (2 anos)",
+            "1 ano",
+            "Colinearidade alta",
+            "Busca segue a demanda",
+            "Difícil",
+            "Forma errada"
+          ],
+          "en": [
+            "Lab conditions",
+            "4 years",
+            "Low collinearity",
+            "Baseline (2 years)",
+            "1 year",
+            "High collinearity",
+            "Search follows demand",
+            "Hard case",
+            "Wrong functional form"
+          ],
+          "es": [
+            "Laboratorio",
+            "4 años",
+            "Colinealidad baja",
+            "Central (2 años)",
+            "1 año",
+            "Colinealidad alta",
+            "Búsqueda sigue la demanda",
+            "Difícil",
+            "Forma errónea"
+          ]
+        },
+        "series": [
+          {
+            "nome": {
+              "pt": "MMM",
+              "en": "MMM",
+              "es": "MMM"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Laboratório",
+                0.0994
+              ],
+              [
+                "4 anos",
+                0.7689
+              ],
+              [
+                "Colinearidade baixa",
+                0.8608
+              ],
+              [
+                "Central (2 anos)",
+                0.9282
+              ],
+              [
+                "1 ano",
+                1.1615
+              ],
+              [
+                "Colinearidade alta",
+                1.2339
+              ],
+              [
+                "Busca segue a demanda",
+                0.8223
+              ],
+              [
+                "Difícil",
+                1.0883
+              ],
+              [
+                "Forma errada",
+                1.6202
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Laboratório",
+                "4 anos",
+                "Colinearidade baixa",
+                "Central (2 anos)",
+                "1 ano",
+                "Colinearidade alta",
+                "Busca segue a demanda",
+                "Difícil",
+                "Forma errada"
+              ],
+              "en": [
+                "Lab conditions",
+                "4 years",
+                "Low collinearity",
+                "Baseline (2 years)",
+                "1 year",
+                "High collinearity",
+                "Search follows demand",
+                "Hard case",
+                "Wrong functional form"
+              ],
+              "es": [
+                "Laboratorio",
+                "4 años",
+                "Colinealidad baja",
+                "Central (2 años)",
+                "1 año",
+                "Colinealidad alta",
+                "Búsqueda sigue la demanda",
+                "Difícil",
+                "Forma errónea"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Regressão linear",
+              "en": "Linear regression",
+              "es": "Regresión lineal"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                "Laboratório",
+                0.5641
+              ],
+              [
+                "4 anos",
+                0.6891
+              ],
+              [
+                "Colinearidade baixa",
+                0.691
+              ],
+              [
+                "Central (2 anos)",
+                0.7424
+              ],
+              [
+                "1 ano",
+                0.8376
+              ],
+              [
+                "Colinearidade alta",
+                0.9681
+              ],
+              [
+                "Busca segue a demanda",
+                0.6266
+              ],
+              [
+                "Difícil",
+                0.7619
+              ],
+              [
+                "Forma errada",
+                0.7136
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Laboratório",
+                "4 anos",
+                "Colinearidade baixa",
+                "Central (2 anos)",
+                "1 ano",
+                "Colinearidade alta",
+                "Busca segue a demanda",
+                "Difícil",
+                "Forma errada"
+              ],
+              "en": [
+                "Lab conditions",
+                "4 years",
+                "Low collinearity",
+                "Baseline (2 years)",
+                "1 year",
+                "High collinearity",
+                "Search follows demand",
+                "Hard case",
+                "Wrong functional form"
+              ],
+              "es": [
+                "Laboratorio",
+                "4 años",
+                "Colinealidad baja",
+                "Central (2 años)",
+                "1 año",
+                "Colinealidad alta",
+                "Búsqueda sigue la demanda",
+                "Difícil",
+                "Forma errónea"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Proporcional ao gasto",
+              "en": "Proportional to spend",
+              "es": "Proporcional al gasto"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "Laboratório",
+                0.3064
+              ],
+              [
+                "4 anos",
+                0.5323
+              ],
+              [
+                "Colinearidade baixa",
+                0.6817
+              ],
+              [
+                "Central (2 anos)",
+                0.653
+              ],
+              [
+                "1 ano",
+                0.736
+              ],
+              [
+                "Colinearidade alta",
+                0.6594
+              ],
+              [
+                "Busca segue a demanda",
+                0.4743
+              ],
+              [
+                "Difícil",
+                0.3667
+              ],
+              [
+                "Forma errada",
+                1.3085
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Laboratório",
+                "4 anos",
+                "Colinearidade baixa",
+                "Central (2 anos)",
+                "1 ano",
+                "Colinearidade alta",
+                "Busca segue a demanda",
+                "Difícil",
+                "Forma errada"
+              ],
+              "en": [
+                "Lab conditions",
+                "4 years",
+                "Low collinearity",
+                "Baseline (2 years)",
+                "1 year",
+                "High collinearity",
+                "Search follows demand",
+                "Hard case",
+                "Wrong functional form"
+              ],
+              "es": [
+                "Laboratorio",
+                "4 años",
+                "Colinealidad baja",
+                "Central (2 años)",
+                "1 año",
+                "Colinealidad alta",
+                "Búsqueda sigue la demanda",
+                "Difícil",
+                "Forma errónea"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Média de 48 séries por cenário. No laboratório o MMM erra 10%; no cenário central erra 93%, contra 74% da regressão linear.",
+          "en": "Average of 48 series per scenario. Under lab conditions the MMM is off by 10%; in the baseline it is off by 93%, against 74% for a linear regression.",
+          "es": "Promedio de 48 series por escenario. En el laboratorio el MMM se equivoca un 10%; en el central, un 93%, frente al 74% de la regresión lineal."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Os intervalos só cumprem o prometido quando o modelo descreve o mundo certo",
+          "en": "The intervals only deliver what they promise when the model matches the world",
+          "es": "Los intervalos solo cumplen lo prometido cuando el modelo describe bien el mundo"
+        },
+        "eixo_x": {
+          "pt": "Cenário",
+          "en": "Scenario",
+          "es": "Escenario"
+        },
+        "eixo_y": {
+          "pt": "Canais com o efeito verdadeiro dentro do intervalo",
+          "en": "Channels whose true effect falls inside the interval",
+          "es": "Canales con el efecto real dentro del intervalo"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "rotulos": {
+          "pt": [
+            "Laboratório",
+            "4 anos",
+            "Colinearidade baixa",
+            "Central (2 anos)",
+            "1 ano",
+            "Colinearidade alta",
+            "Busca segue a demanda",
+            "Difícil",
+            "Forma errada"
+          ],
+          "en": [
+            "Lab conditions",
+            "4 years",
+            "Low collinearity",
+            "Baseline (2 years)",
+            "1 year",
+            "High collinearity",
+            "Search follows demand",
+            "Hard case",
+            "Wrong functional form"
+          ],
+          "es": [
+            "Laboratorio",
+            "4 años",
+            "Colinealidad baja",
+            "Central (2 años)",
+            "1 año",
+            "Colinealidad alta",
+            "Búsqueda sigue la demanda",
+            "Difícil",
+            "Forma errónea"
+          ]
+        },
+        "series": [
+          {
+            "nome": {
+              "pt": "Intervalo de 95%",
+              "en": "95% interval",
+              "es": "Intervalo del 95%"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Laboratório",
+                0.8854
+              ],
+              [
+                "4 anos",
+                0.974
+              ],
+              [
+                "Colinearidade baixa",
+                0.9062
+              ],
+              [
+                "Central (2 anos)",
+                0.9427
+              ],
+              [
+                "1 ano",
+                0.9531
+              ],
+              [
+                "Colinearidade alta",
+                1.0
+              ],
+              [
+                "Busca segue a demanda",
+                0.724
+              ],
+              [
+                "Difícil",
+                0.5521
+              ],
+              [
+                "Forma errada",
+                0.776
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Laboratório",
+                "4 anos",
+                "Colinearidade baixa",
+                "Central (2 anos)",
+                "1 ano",
+                "Colinearidade alta",
+                "Busca segue a demanda",
+                "Difícil",
+                "Forma errada"
+              ],
+              "en": [
+                "Lab conditions",
+                "4 years",
+                "Low collinearity",
+                "Baseline (2 years)",
+                "1 year",
+                "High collinearity",
+                "Search follows demand",
+                "Hard case",
+                "Wrong functional form"
+              ],
+              "es": [
+                "Laboratorio",
+                "4 años",
+                "Colinealidad baja",
+                "Central (2 años)",
+                "1 año",
+                "Colinealidad alta",
+                "Búsqueda sigue la demanda",
+                "Difícil",
+                "Forma errónea"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Intervalo de 80%",
+              "en": "80% interval",
+              "es": "Intervalo del 80%"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "Laboratório",
+                0.75
+              ],
+              [
+                "4 anos",
+                0.7917
+              ],
+              [
+                "Colinearidade baixa",
+                0.75
+              ],
+              [
+                "Central (2 anos)",
+                0.7865
+              ],
+              [
+                "1 ano",
+                0.8594
+              ],
+              [
+                "Colinearidade alta",
+                0.8594
+              ],
+              [
+                "Busca segue a demanda",
+                0.599
+              ],
+              [
+                "Difícil",
+                0.3542
+              ],
+              [
+                "Forma errada",
+                0.6198
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Laboratório",
+                "4 anos",
+                "Colinearidade baixa",
+                "Central (2 anos)",
+                "1 ano",
+                "Colinearidade alta",
+                "Busca segue a demanda",
+                "Difícil",
+                "Forma errada"
+              ],
+              "en": [
+                "Lab conditions",
+                "4 years",
+                "Low collinearity",
+                "Baseline (2 years)",
+                "1 year",
+                "High collinearity",
+                "Search follows demand",
+                "Hard case",
+                "Wrong functional form"
+              ],
+              "es": [
+                "Laboratorio",
+                "4 años",
+                "Colinealidad baja",
+                "Central (2 años)",
+                "1 año",
+                "Colinealidad alta",
+                "Búsqueda sigue la demanda",
+                "Difícil",
+                "Forma errónea"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "O intervalo de 95% devia cobrir 95%: cobre 94% no cenário central, mas só 55% quando a busca segue a demanda e os canais andam juntos.",
+          "en": "A 95% interval should cover 95%: it covers 94% in the baseline, but only 55% when search follows demand and channels move together.",
+          "es": "El intervalo del 95% debería cubrir el 95%: cubre el 94% en el central, pero solo el 55% cuando la búsqueda sigue la demanda y los canales se mueven juntos."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Se a busca segue a demanda, o MMM dá a ela 125% de crédito a mais",
+          "en": "When search follows demand, the MMM gives it 125% too much credit",
+          "es": "Si la búsqueda sigue la demanda, el MMM le da un 125% de crédito de más"
+        },
+        "eixo_x": {
+          "pt": "Canal",
+          "en": "Channel",
+          "es": "Canal"
+        },
+        "eixo_y": {
+          "pt": "Crédito a mais (+) ou a menos (−) que a venda gerada",
+          "en": "Credit above (+) or below (−) the sales generated",
+          "es": "Crédito de más (+) o de menos (−) frente a la venta generada"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "rotulos": {
+          "pt": [
+            "Busca",
+            "Social",
+            "Vídeo",
+            "Afiliados"
+          ],
+          "en": [
+            "Search",
+            "Social",
+            "Video",
+            "Affiliates"
+          ],
+          "es": [
+            "Búsqueda",
+            "Social",
+            "Video",
+            "Afiliados"
+          ]
+        },
+        "series": [
+          {
+            "nome": {
+              "pt": "Central",
+              "en": "Baseline",
+              "es": "Central"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                "Busca",
+                0.0128
+              ],
+              [
+                "Social",
+                0.1478
+              ],
+              [
+                "Vídeo",
+                0.2613
+              ],
+              [
+                "Afiliados",
+                1.9414
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Busca",
+                "Social",
+                "Vídeo",
+                "Afiliados"
+              ],
+              "en": [
+                "Search",
+                "Social",
+                "Video",
+                "Affiliates"
+              ],
+              "es": [
+                "Búsqueda",
+                "Social",
+                "Video",
+                "Afiliados"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Busca segue a demanda",
+              "en": "Search follows demand",
+              "es": "Búsqueda sigue la demanda"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "Busca",
+                0.8363
+              ],
+              [
+                "Social",
+                0.0181
+              ],
+              [
+                "Vídeo",
+                -0.3374
+              ],
+              [
+                "Afiliados",
+                0.0335
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Busca",
+                "Social",
+                "Vídeo",
+                "Afiliados"
+              ],
+              "en": [
+                "Search",
+                "Social",
+                "Video",
+                "Affiliates"
+              ],
+              "es": [
+                "Búsqueda",
+                "Social",
+                "Video",
+                "Afiliados"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Difícil (+ canais colineares)",
+              "en": "Hard case (+ collinear channels)",
+              "es": "Difícil (+ canales colineales)"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Busca",
+                1.2509
+              ],
+              [
+                "Social",
+                -0.8217
+              ],
+              [
+                "Vídeo",
+                -0.8459
+              ],
+              [
+                "Afiliados",
+                -0.5295
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Busca",
+                "Social",
+                "Vídeo",
+                "Afiliados"
+              ],
+              "en": [
+                "Search",
+                "Social",
+                "Video",
+                "Affiliates"
+              ],
+              "es": [
+                "Búsqueda",
+                "Social",
+                "Video",
+                "Afiliados"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Erro médio da contribuição de cada canal. Quando o gasto de busca sobe junto com a procura, a busca recebe 84% a mais; com os canais colineares, 125%, tirados de social e vídeo.",
+          "en": "Average error in each channel's contribution. When search spend rises with demand, search gets 84% too much; with collinear channels, 125%, taken from social and video.",
+          "es": "Error medio de la contribución de cada canal. Cuando el gasto en búsqueda sube con la demanda, la búsqueda recibe un 84% de más; con canales colineales, un 125%, quitado a social y video."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Experimento ou variação deliberada de gasto derrubam o erro de 93% para cerca de 40%",
+          "en": "An experiment or deliberate spend variation cuts the error from 93% to about 40%",
+          "es": "Un experimento o una variación deliberada del gasto bajan el error del 93% a cerca del 40%"
+        },
+        "eixo_x": {
+          "pt": "Cenário",
+          "en": "Scenario",
+          "es": "Escenario"
+        },
+        "eixo_y": {
+          "pt": "Erro de contribuição do MMM",
+          "en": "MMM contribution error",
+          "es": "Error de contribución del MMM"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "rotulos": {
+          "pt": [
+            "Central",
+            "Difícil"
+          ],
+          "en": [
+            "Baseline",
+            "Hard case"
+          ],
+          "es": [
+            "Central",
+            "Difícil"
+          ]
+        },
+        "series": [
+          {
+            "nome": {
+              "pt": "Só histórico",
+              "en": "History only",
+              "es": "Solo histórico"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                "Central",
+                0.9282
+              ],
+              [
+                "Difícil",
+                1.0883
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Central",
+                "Difícil"
+              ],
+              "en": [
+                "Baseline",
+                "Hard case"
+              ],
+              "es": [
+                "Central",
+                "Difícil"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Com variação deliberada",
+              "en": "With deliberate variation",
+              "es": "Con variación deliberada"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "Central",
+                0.4111
+              ],
+              [
+                "Difícil",
+                0.3376
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Central",
+                "Difícil"
+              ],
+              "en": [
+                "Baseline",
+                "Hard case"
+              ],
+              "es": [
+                "Central",
+                "Difícil"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Calibrado por experimento",
+              "en": "Calibrated with an experiment",
+              "es": "Calibrado con un experimento"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Central",
+                0.4022
+              ],
+              [
+                "Difícil",
+                0.5396
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Central",
+                "Difícil"
+              ],
+              "en": [
+                "Baseline",
+                "Hard case"
+              ],
+              "es": [
+                "Central",
+                "Difícil"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Medir melhora mais do que decidir: no cenário difícil, mesmo calibrado, realocar pelo modelo ainda muda a venda de mídia em −2,8%.",
+          "en": "Measurement improves more than decisions do: in the hard case, even after calibration, reallocating on the model's advice changes media sales by −2.8%.",
+          "es": "La medición mejora más que la decisión: en el escenario difícil, aun calibrado, reasignar según el modelo cambia la venta de medios en −2,8%."
+        }
+      },
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "A contribuição de um canal é uma extrapolação até o gasto zero, onde não há dado",
+          "en": "A channel's contribution is an extrapolation down to zero spend, where there is no data",
+          "es": "La contribución de un canal es una extrapolación hasta el gasto cero, donde no hay datos"
+        },
+        "eixo_x": {
+          "pt": "Gasto semanal em busca, em múltiplos da média",
+          "en": "Weekly search spend, as a multiple of the average",
+          "es": "Gasto semanal en búsqueda, en múltiplos de la media"
+        },
+        "eixo_y": {
+          "pt": "Venda semanal gerada pela busca (R$ mil, simulada)",
+          "en": "Weekly sales from search (simulated, thousand BRL)",
+          "es": "Venta semanal generada por búsqueda (miles de R$, simulada)"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Estimada pelo MMM",
+              "en": "MMM estimate",
+              "es": "Estimada por el MMM"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.05,
+                11.57
+              ],
+              [
+                0.1,
+                22.18
+              ],
+              [
+                0.15,
+                31.94
+              ],
+              [
+                0.2,
+                40.95
+              ],
+              [
+                0.25,
+                49.29
+              ],
+              [
+                0.3,
+                57.04
+              ],
+              [
+                0.35,
+                64.25
+              ],
+              [
+                0.4,
+                70.97
+              ],
+              [
+                0.45,
+                77.27
+              ],
+              [
+                0.5,
+                83.17
+              ],
+              [
+                0.55,
+                88.71
+              ],
+              [
+                0.6,
+                93.93
+              ],
+              [
+                0.65,
+                98.84
+              ],
+              [
+                0.7,
+                103.49
+              ],
+              [
+                0.75,
+                107.88
+              ],
+              [
+                0.8,
+                112.05
+              ],
+              [
+                0.85,
+                115.99
+              ],
+              [
+                0.9,
+                119.74
+              ],
+              [
+                0.95,
+                123.31
+              ],
+              [
+                1.0,
+                126.71
+              ],
+              [
+                1.05,
+                129.95
+              ],
+              [
+                1.1,
+                133.04
+              ],
+              [
+                1.15,
+                136.0
+              ],
+              [
+                1.2,
+                138.82
+              ],
+              [
+                1.25,
+                141.53
+              ],
+              [
+                1.3,
+                144.12
+              ],
+              [
+                1.35,
+                146.61
+              ],
+              [
+                1.4,
+                149.0
+              ],
+              [
+                1.45,
+                151.29
+              ],
+              [
+                1.5,
+                153.5
+              ],
+              [
+                1.55,
+                155.62
+              ],
+              [
+                1.6,
+                157.66
+              ],
+              [
+                1.65,
+                159.63
+              ],
+              [
+                1.7,
+                161.53
+              ],
+              [
+                1.75,
+                163.36
+              ],
+              [
+                1.8,
+                165.13
+              ],
+              [
+                1.85,
+                166.84
+              ],
+              [
+                1.9,
+                168.49
+              ],
+              [
+                1.95,
+                170.09
+              ],
+              [
+                2.0,
+                171.64
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Verdadeira",
+              "en": "True curve",
+              "es": "Verdadera"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.05,
+                8.25
+              ],
+              [
+                0.1,
+                15.66
+              ],
+              [
+                0.15,
+                22.36
+              ],
+              [
+                0.2,
+                28.45
+              ],
+              [
+                0.25,
+                34.0
+              ],
+              [
+                0.3,
+                39.09
+              ],
+              [
+                0.35,
+                43.76
+              ],
+              [
+                0.4,
+                48.07
+              ],
+              [
+                0.45,
+                52.06
+              ],
+              [
+                0.5,
+                55.76
+              ],
+              [
+                0.55,
+                59.21
+              ],
+              [
+                0.6,
+                62.42
+              ],
+              [
+                0.65,
+                65.43
+              ],
+              [
+                0.7,
+                68.24
+              ],
+              [
+                0.75,
+                70.89
+              ],
+              [
+                0.8,
+                73.37
+              ],
+              [
+                0.85,
+                75.72
+              ],
+              [
+                0.9,
+                77.93
+              ],
+              [
+                0.95,
+                80.02
+              ],
+              [
+                1.0,
+                82.0
+              ],
+              [
+                1.05,
+                83.89
+              ],
+              [
+                1.1,
+                85.67
+              ],
+              [
+                1.15,
+                87.37
+              ],
+              [
+                1.2,
+                88.98
+              ],
+              [
+                1.25,
+                90.53
+              ],
+              [
+                1.3,
+                92.0
+              ],
+              [
+                1.35,
+                93.4
+              ],
+              [
+                1.4,
+                94.74
+              ],
+              [
+                1.45,
+                96.03
+              ],
+              [
+                1.5,
+                97.26
+              ],
+              [
+                1.55,
+                98.44
+              ],
+              [
+                1.6,
+                99.58
+              ],
+              [
+                1.65,
+                100.67
+              ],
+              [
+                1.7,
+                101.72
+              ],
+              [
+                1.75,
+                102.72
+              ],
+              [
+                1.8,
+                103.69
+              ],
+              [
+                1.85,
+                104.63
+              ],
+              [
+                1.9,
+                105.53
+              ],
+              [
+                1.95,
+                106.4
+              ],
+              [
+                2.0,
+                107.24
+              ]
+            ]
+          }
+        ],
+        "faixa": {
+          "serie": 0,
+          "inferior": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.05,
+              7.18
+            ],
+            [
+              0.1,
+              13.77
+            ],
+            [
+              0.15,
+              19.86
+            ],
+            [
+              0.2,
+              25.49
+            ],
+            [
+              0.25,
+              30.71
+            ],
+            [
+              0.3,
+              35.57
+            ],
+            [
+              0.35,
+              40.1
+            ],
+            [
+              0.4,
+              44.34
+            ],
+            [
+              0.45,
+              48.31
+            ],
+            [
+              0.5,
+              52.03
+            ],
+            [
+              0.55,
+              55.53
+            ],
+            [
+              0.6,
+              58.83
+            ],
+            [
+              0.65,
+              61.94
+            ],
+            [
+              0.7,
+              64.88
+            ],
+            [
+              0.75,
+              67.66
+            ],
+            [
+              0.8,
+              70.3
+            ],
+            [
+              0.85,
+              72.81
+            ],
+            [
+              0.9,
+              75.19
+            ],
+            [
+              0.95,
+              77.46
+            ],
+            [
+              1.0,
+              79.62
+            ],
+            [
+              1.05,
+              81.68
+            ],
+            [
+              1.1,
+              83.65
+            ],
+            [
+              1.15,
+              85.53
+            ],
+            [
+              1.2,
+              87.34
+            ],
+            [
+              1.25,
+              89.06
+            ],
+            [
+              1.3,
+              90.72
+            ],
+            [
+              1.35,
+              92.31
+            ],
+            [
+              1.4,
+              93.84
+            ],
+            [
+              1.45,
+              95.33
+            ],
+            [
+              1.5,
+              96.9
+            ],
+            [
+              1.55,
+              98.42
+            ],
+            [
+              1.6,
+              99.88
+            ],
+            [
+              1.65,
+              101.3
+            ],
+            [
+              1.7,
+              102.67
+            ],
+            [
+              1.75,
+              103.99
+            ],
+            [
+              1.8,
+              105.28
+            ],
+            [
+              1.85,
+              106.52
+            ],
+            [
+              1.9,
+              107.72
+            ],
+            [
+              1.95,
+              108.89
+            ],
+            [
+              2.0,
+              110.03
+            ]
+          ],
+          "superior": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.05,
+              22.27
+            ],
+            [
+              0.1,
+              41.6
+            ],
+            [
+              0.15,
+              58.21
+            ],
+            [
+              0.2,
+              72.85
+            ],
+            [
+              0.25,
+              85.98
+            ],
+            [
+              0.3,
+              97.71
+            ],
+            [
+              0.35,
+              108.27
+            ],
+            [
+              0.4,
+              117.83
+            ],
+            [
+              0.45,
+              126.52
+            ],
+            [
+              0.5,
+              134.46
+            ],
+            [
+              0.55,
+              143.19
+            ],
+            [
+              0.6,
+              151.71
+            ],
+            [
+              0.65,
+              159.75
+            ],
+            [
+              0.7,
+              167.35
+            ],
+            [
+              0.75,
+              174.55
+            ],
+            [
+              0.8,
+              181.37
+            ],
+            [
+              0.85,
+              187.86
+            ],
+            [
+              0.9,
+              194.02
+            ],
+            [
+              0.95,
+              199.89
+            ],
+            [
+              1.0,
+              205.48
+            ],
+            [
+              1.05,
+              210.82
+            ],
+            [
+              1.1,
+              215.92
+            ],
+            [
+              1.15,
+              220.79
+            ],
+            [
+              1.2,
+              225.46
+            ],
+            [
+              1.25,
+              229.94
+            ],
+            [
+              1.3,
+              234.22
+            ],
+            [
+              1.35,
+              238.34
+            ],
+            [
+              1.4,
+              242.29
+            ],
+            [
+              1.45,
+              246.09
+            ],
+            [
+              1.5,
+              249.75
+            ],
+            [
+              1.55,
+              253.27
+            ],
+            [
+              1.6,
+              256.66
+            ],
+            [
+              1.65,
+              259.93
+            ],
+            [
+              1.7,
+              263.09
+            ],
+            [
+              1.75,
+              266.13
+            ],
+            [
+              1.8,
+              269.07
+            ],
+            [
+              1.85,
+              271.92
+            ],
+            [
+              1.9,
+              274.67
+            ],
+            [
+              1.95,
+              276.66
+            ],
+            [
+              2.0,
+              278.48
+            ]
+          ]
+        },
+        "leitura": {
+          "pt": "Uma série do cenário central. Os dados só mostram a curva perto do gasto de hoje; no gasto médio o modelo diz 1,5 vezes a venda verdadeira, e a faixa de 95% é larga.",
+          "en": "One baseline series. The data only show the curve near current spend; at average spend the model says 1.5 times the true sales, and the 95% band is wide.",
+          "es": "Una serie del escenario central. Los datos solo muestran la curva cerca del gasto actual; en el gasto medio el modelo dice 1,5 veces la venta real, y la banda del 95% es amplia."
+        }
+      }
+    ]
   }
 }

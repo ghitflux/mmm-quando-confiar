@@ -48,6 +48,8 @@ def main() -> None:
     exemplo = analise.exemplo(dados.gerar(analise.POR_CHAVE[chave_exemplo].cenario, semente_exemplo))
     bloco_site = site.montar(resumo, premissas)
     site.validar(bloco_site)
+    bloco_site["graficos_extras"] = site.graficos_extras(resumo, exemplo)
+    site.validar_extras(bloco_site["graficos_extras"])
 
     figuras = {
         "pior_que_nao_mexer": graficos.pior_que_nao_mexer(resumo),
