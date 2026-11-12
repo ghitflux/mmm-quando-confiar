@@ -1,0 +1,58 @@
+{
+  "cenario": {
+    "nome": "central",
+    "semanas": 104,
+    "colinearidade": 0.5,
+    "busca_responde_a_demanda": false,
+    "variacao_deliberada": false,
+    "forma_errada": false,
+    "ruido": 1.0
+  },
+  "semente": 0,
+  "unidade": "R$ mil por semana",
+  "tendencia_anual_da_base": 0.06494829688927854,
+  "venda_total_no_periodo": 144655.74766541942,
+  "parte_das_vendas_que_vem_da_midia": 0.13438852597390824,
+  "canais": {
+    "busca": {
+      "gasto_de_referencia": 40.0,
+      "venda_semanal_no_gasto_de_referencia": 86.23528664649568,
+      "retencao_do_adstock": 0.21424167643170006,
+      "meia_saturacao_em_multiplos_do_gasto_de_referencia": 0.7963025330889856,
+      "expoente_da_hill": 1.0,
+      "gasto_total_no_periodo": 3726.3649323416867,
+      "venda_total_gerada_no_periodo": 8370.90281641602,
+      "roi_verdadeiro": 2.246399096278436
+    },
+    "social": {
+      "gasto_de_referencia": 35.0,
+      "venda_semanal_no_gasto_de_referencia": 57.51492068918796,
+      "retencao_do_adstock": 0.28508931613038957,
+      "meia_saturacao_em_multiplos_do_gasto_de_referencia": 1.814272772362417,
+      "expoente_da_hill": 1.0,
+      "gasto_total_no_periodo": 3337.2489097268217,
+      "venda_total_gerada_no_periodo": 5542.761020363532,
+      "roi_verdadeiro": 1.6608773185028167
+    },
+    "video": {
+      "gasto_de_referencia": 30.0,
+      "venda_semanal_no_gasto_de_referencia": 25.441277617829886,
+      "retencao_do_adstock": 0.6522134711760911,
+      "meia_saturacao_em_multiplos_do_gasto_de_referencia": 0.7413068896670575,
+      "expoente_da_hill": 1.0,
+      "gasto_total_no_periodo": 2784.492125335897,
+      "venda_total_gerada_no_periodo": 2439.132491572052,
+      "roi_verdadeiro": 0.8759703320323867
+    },
+    "afiliados": {
+      "gasto_de_referencia": 10.0,
+      "venda_semanal_no_gasto_de_referencia": 29.938448217910313,
+      "retencao_do_adstock": 0.08890674866701986,
+      "meia_saturacao_em_multiplos_do_gasto_de_referencia": 1.4511443460287785,
+      "expoente_da_hill": 1.0,
+      "gasto_total_no_periodo": 1029.4464470394778,
+      "venda_total_gerada_no_periodo": 3087.2763740577275,
+      "roi_verdadeiro": 2.998967438215205
+    }
+  }
+}

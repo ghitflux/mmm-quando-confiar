@@ -1,0 +1,32 @@
+[project]
+name = "mmm-confiar"
+version = "0.1.0"
+description = "O modelo de mix de marketing recupera o efeito de cada canal? Estudo de recuperação com dados simulados: identificabilidade, cobertura dos intervalos e arrependimento da realocação de verba"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.14",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "jinja2>=3.1",
+    "nbconvert>=7.16",
+    "nbformat>=5.10",
+    "pytest>=8.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mmm_confiar"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"

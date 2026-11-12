@@ -1,0 +1,3 @@
+# Arquivos gerados são gravados com fim de linha LF; o git não deve trocar.
+* text=auto eol=lf
+*.png binary
