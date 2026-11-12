@@ -208,7 +208,7 @@ Declaro a divisão do trabalho porque ela importa para quem avalia:
 - **Meu:** a direção (quais frentes da ciência de dados estudar e por quê), o contexto de negócio que dá sentido à
   pergunta, vindo de onze anos de marketing digital (tráfego pago desde 2021, automação desde 2018), a leitura
   crítica dos resultados e a decisão do que publicar e do que declarar como limitação.
-- **Com o assistente:** a formulação da pergunta a partir desse contexto, a escolha da base pública e do método, a
+- **Com o assistente:** a formulação da pergunta a partir desse contexto, o desenho da simulação e a escolha do método, a
   implementação do código, dos testes e dos gráficos, e a redação, que revisei.
 - **Como conferir:** todo número deste README sai de `reports/resultados.json`, gerado por
   `scripts/rodar_analise.py`. Os testes em `tests/` conferem as funções de método contra casos de resposta
